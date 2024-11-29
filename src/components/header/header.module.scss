@@ -64,3 +64,22 @@
     cursor: pointer;
   }
 }
+
+@media (max-width: 768px) {
+  .header {
+    flex-direction: column;
+    justify-content: space-evenly;
+  }
+
+  .logoHeader {
+    width: 90%;
+  }
+
+  .navHedear {
+    width: 95%;
+  }
+
+  .barraDeBusca {
+    display: none;
+  }
+}
