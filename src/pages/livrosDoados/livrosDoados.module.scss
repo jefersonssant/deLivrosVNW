@@ -13,6 +13,8 @@
 .containerCards {
   width: 95%;
   height: 60vh;
+  display: flex;
+  column-gap: 5%;
 
   section {
     border: solid 3px #005695;
@@ -23,11 +25,17 @@
     flex-direction: column;
     align-items: center;
     justify-content: space-evenly;
+    cursor: pointer;
 
     div {
       text-align: center;
     }
+
+    img {
+      width: 50%;
+    }
   }
+
 }
 
 @media (max-width: 780px) {
